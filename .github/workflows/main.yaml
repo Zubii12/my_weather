@@ -6,6 +6,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CI_JOB_NAME: format
+    defaults:
+      run:
+        working-directory: ./mobile
     steps:
       - name: Install Flutter
         uses: subosito/flutter-action@v1
@@ -21,6 +24,9 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CI_JOB_NAME: analyze
+    defaults:
+      run:
+        working-directory: ./mobile
     steps:
       - name: Install Flutter
         uses: subosito/flutter-action@v1
