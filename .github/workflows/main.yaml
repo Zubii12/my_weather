@@ -15,8 +15,6 @@ jobs:
         with:
           channel: stable
       - uses: actions/checkout@v2
-      - name: Back to root
-        run: cd ..
       - name: Setup repository
         run: flutter pub get
       - name: Format code
@@ -35,8 +33,6 @@ jobs:
         with:
           channel: stable
       - uses: actions/checkout@v2
-      - name: Back to root
-        run: cd ..
       - name: Setup repository
         run: flutter pub get
       - name: Analyze code
