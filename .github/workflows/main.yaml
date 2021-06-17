@@ -15,10 +15,10 @@ jobs:
         with:
           channel: stable
       - uses: actions/checkout@v2
-      - name: Setup repository
-        run: flutter pub get
       - name: Back to root
         run: cd ..
+      - name: Setup repository
+        run: flutter pub get
       - name: Format code
         run: flutter pub pub run --enable-asserts ci/bots/format.dart --set-exit-if-changed -n -l 120
 
@@ -35,9 +35,9 @@ jobs:
         with:
           channel: stable
       - uses: actions/checkout@v2
-      - name: Setup repository
-        run: flutter pub get
       - name: Back to root
         run: cd ..
+      - name: Setup repository
+        run: flutter pub get
       - name: Analyze code
         run: flutter pub pub run --enable-asserts ci/bots/analyze.dart
