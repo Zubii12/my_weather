@@ -22,6 +22,7 @@ dependencies:
   built_value: ^8.0.6
   built_collection: ^5.1.0
   redux: ^5.0.0
+  chopper: ^4.0.1
 
   # packages
   redux_epics: ^0.15.0
@@ -36,6 +37,7 @@ dev_dependencies:
   freezed: ^0.14.2
   mockito: ^5.0.10
   # lcov: ^6.0.0
+  chopper_generator: ^4.0.1
 
 dependency_overrides:
   rxdart: ^0.27.1
