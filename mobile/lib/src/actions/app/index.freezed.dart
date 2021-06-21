@@ -534,3 +534,263 @@ abstract class InitializeAppError
   $InitializeAppErrorCopyWith<InitializeAppError> get copyWith =>
       throw _privateConstructorUsedError;
 }
+
+/// @nodoc
+class _$AddSavedLocationIdTearOff {
+  const _$AddSavedLocationIdTearOff();
+
+  AddSavedLocationId$ call({required int id}) {
+    return AddSavedLocationId$(
+      id: id,
+    );
+  }
+}
+
+/// @nodoc
+const $AddSavedLocationId = _$AddSavedLocationIdTearOff();
+
+/// @nodoc
+mixin _$AddSavedLocationId {
+  int get id => throw _privateConstructorUsedError;
+
+  @JsonKey(ignore: true)
+  $AddSavedLocationIdCopyWith<AddSavedLocationId> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $AddSavedLocationIdCopyWith<$Res> {
+  factory $AddSavedLocationIdCopyWith(
+          AddSavedLocationId value, $Res Function(AddSavedLocationId) then) =
+      _$AddSavedLocationIdCopyWithImpl<$Res>;
+  $Res call({int id});
+}
+
+/// @nodoc
+class _$AddSavedLocationIdCopyWithImpl<$Res>
+    implements $AddSavedLocationIdCopyWith<$Res> {
+  _$AddSavedLocationIdCopyWithImpl(this._value, this._then);
+
+  final AddSavedLocationId _value;
+  // ignore: unused_field
+  final $Res Function(AddSavedLocationId) _then;
+
+  @override
+  $Res call({
+    Object? id = freezed,
+  }) {
+    return _then(_value.copyWith(
+      id: id == freezed
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+}
+
+/// @nodoc
+abstract class $AddSavedLocationId$CopyWith<$Res>
+    implements $AddSavedLocationIdCopyWith<$Res> {
+  factory $AddSavedLocationId$CopyWith(
+          AddSavedLocationId$ value, $Res Function(AddSavedLocationId$) then) =
+      _$AddSavedLocationId$CopyWithImpl<$Res>;
+  @override
+  $Res call({int id});
+}
+
+/// @nodoc
+class _$AddSavedLocationId$CopyWithImpl<$Res>
+    extends _$AddSavedLocationIdCopyWithImpl<$Res>
+    implements $AddSavedLocationId$CopyWith<$Res> {
+  _$AddSavedLocationId$CopyWithImpl(
+      AddSavedLocationId$ _value, $Res Function(AddSavedLocationId$) _then)
+      : super(_value, (v) => _then(v as AddSavedLocationId$));
+
+  @override
+  AddSavedLocationId$ get _value => super._value as AddSavedLocationId$;
+
+  @override
+  $Res call({
+    Object? id = freezed,
+  }) {
+    return _then(AddSavedLocationId$(
+      id: id == freezed
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$AddSavedLocationId$ implements AddSavedLocationId$ {
+  const _$AddSavedLocationId$({required this.id});
+
+  @override
+  final int id;
+
+  @override
+  String toString() {
+    return 'AddSavedLocationId(id: $id)';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other is AddSavedLocationId$ &&
+            (identical(other.id, id) ||
+                const DeepCollectionEquality().equals(other.id, id)));
+  }
+
+  @override
+  int get hashCode =>
+      runtimeType.hashCode ^ const DeepCollectionEquality().hash(id);
+
+  @JsonKey(ignore: true)
+  @override
+  $AddSavedLocationId$CopyWith<AddSavedLocationId$> get copyWith =>
+      _$AddSavedLocationId$CopyWithImpl<AddSavedLocationId$>(this, _$identity);
+}
+
+abstract class AddSavedLocationId$ implements AddSavedLocationId {
+  const factory AddSavedLocationId$({required int id}) = _$AddSavedLocationId$;
+
+  @override
+  int get id => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(ignore: true)
+  $AddSavedLocationId$CopyWith<AddSavedLocationId$> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+class _$RemoveSavedLocationIdTearOff {
+  const _$RemoveSavedLocationIdTearOff();
+
+  RemoveSavedLocationId$ call({required int id}) {
+    return RemoveSavedLocationId$(
+      id: id,
+    );
+  }
+}
+
+/// @nodoc
+const $RemoveSavedLocationId = _$RemoveSavedLocationIdTearOff();
+
+/// @nodoc
+mixin _$RemoveSavedLocationId {
+  int get id => throw _privateConstructorUsedError;
+
+  @JsonKey(ignore: true)
+  $RemoveSavedLocationIdCopyWith<RemoveSavedLocationId> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $RemoveSavedLocationIdCopyWith<$Res> {
+  factory $RemoveSavedLocationIdCopyWith(RemoveSavedLocationId value,
+          $Res Function(RemoveSavedLocationId) then) =
+      _$RemoveSavedLocationIdCopyWithImpl<$Res>;
+  $Res call({int id});
+}
+
+/// @nodoc
+class _$RemoveSavedLocationIdCopyWithImpl<$Res>
+    implements $RemoveSavedLocationIdCopyWith<$Res> {
+  _$RemoveSavedLocationIdCopyWithImpl(this._value, this._then);
+
+  final RemoveSavedLocationId _value;
+  // ignore: unused_field
+  final $Res Function(RemoveSavedLocationId) _then;
+
+  @override
+  $Res call({
+    Object? id = freezed,
+  }) {
+    return _then(_value.copyWith(
+      id: id == freezed
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+}
+
+/// @nodoc
+abstract class $RemoveSavedLocationId$CopyWith<$Res>
+    implements $RemoveSavedLocationIdCopyWith<$Res> {
+  factory $RemoveSavedLocationId$CopyWith(RemoveSavedLocationId$ value,
+          $Res Function(RemoveSavedLocationId$) then) =
+      _$RemoveSavedLocationId$CopyWithImpl<$Res>;
+  @override
+  $Res call({int id});
+}
+
+/// @nodoc
+class _$RemoveSavedLocationId$CopyWithImpl<$Res>
+    extends _$RemoveSavedLocationIdCopyWithImpl<$Res>
+    implements $RemoveSavedLocationId$CopyWith<$Res> {
+  _$RemoveSavedLocationId$CopyWithImpl(RemoveSavedLocationId$ _value,
+      $Res Function(RemoveSavedLocationId$) _then)
+      : super(_value, (v) => _then(v as RemoveSavedLocationId$));
+
+  @override
+  RemoveSavedLocationId$ get _value => super._value as RemoveSavedLocationId$;
+
+  @override
+  $Res call({
+    Object? id = freezed,
+  }) {
+    return _then(RemoveSavedLocationId$(
+      id: id == freezed
+          ? _value.id
+          : id // ignore: cast_nullable_to_non_nullable
+              as int,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$RemoveSavedLocationId$ implements RemoveSavedLocationId$ {
+  const _$RemoveSavedLocationId$({required this.id});
+
+  @override
+  final int id;
+
+  @override
+  String toString() {
+    return 'RemoveSavedLocationId(id: $id)';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other is RemoveSavedLocationId$ &&
+            (identical(other.id, id) ||
+                const DeepCollectionEquality().equals(other.id, id)));
+  }
+
+  @override
+  int get hashCode =>
+      runtimeType.hashCode ^ const DeepCollectionEquality().hash(id);
+
+  @JsonKey(ignore: true)
+  @override
+  $RemoveSavedLocationId$CopyWith<RemoveSavedLocationId$> get copyWith =>
+      _$RemoveSavedLocationId$CopyWithImpl<RemoveSavedLocationId$>(
+          this, _$identity);
+}
+
+abstract class RemoveSavedLocationId$ implements RemoveSavedLocationId {
+  const factory RemoveSavedLocationId$({required int id}) =
+      _$RemoveSavedLocationId$;
+
+  @override
+  int get id => throw _privateConstructorUsedError;
+  @override
+  @JsonKey(ignore: true)
+  $RemoveSavedLocationId$CopyWith<RemoveSavedLocationId$> get copyWith =>
+      throw _privateConstructorUsedError;
+}
