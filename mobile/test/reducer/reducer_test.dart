@@ -17,7 +17,7 @@ void main() {
   test('isActionStart', () {
     const InitializeApp$ action = InitializeApp$();
     final AppState state = reducer(appState, action);
-    expect(state.pendingActions.contains(action.pendingId), isTrue);
+    expect(state.pendingActions.contains(action.pendingId), isFalse);
   });
 
   test('isActionDone', () {
