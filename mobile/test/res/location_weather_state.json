@@ -1,0 +1,128 @@
+{
+  "locationWeather": {
+    "44418": {
+      "woeid" : 44418,
+      "location": {
+        "title": "London",
+        "location_type": "City",
+        "woeid": 44418
+      },
+      "sun_rise": "2021-06-21T04:43:08.265734+01:00",
+      "sun_set": "2021-06-21T21:21:35.360205+01:00",
+      "consolidated_weather": [
+        {
+          "id": 4904471659282432,
+          "weather_state_name": "Heavy Rain",
+          "weather_state_abbr": "hr",
+          "wind_direction_compass": "NE",
+          "created": "2021-06-21T15:32:02.270077Z",
+          "applicable_date": "2021-06-21",
+          "min_temp": 10.635,
+          "max_temp": 13.905000000000001,
+          "the_temp": 13.43,
+          "wind_speed": 6.828336270118508,
+          "wind_direction": 44.333363422059584,
+          "air_pressure": 1012.5,
+          "humidity": 89,
+          "visibility": 6.150332060765132,
+          "predictability": 77
+        },
+        {
+          "id": 4580167000260608,
+          "weather_state_name": "Light Rain",
+          "weather_state_abbr": "lr",
+          "wind_direction_compass": "NNE",
+          "created": "2021-06-21T15:32:01.967063Z",
+          "applicable_date": "2021-06-22",
+          "min_temp": 10.305,
+          "max_temp": 17.14,
+          "the_temp": 16.47,
+          "wind_speed": 8.28592169550359,
+          "wind_direction": 24.494364542183018,
+          "air_pressure": 1020.5,
+          "humidity": 58,
+          "visibility": 14.183418834009386,
+          "predictability": 75
+        },
+        {
+          "id": 5213401576898560,
+          "weather_state_name": "Light Cloud",
+          "weather_state_abbr": "lc",
+          "wind_direction_compass": "NNE",
+          "created": "2021-06-21T15:32:01.672451Z",
+          "applicable_date": "2021-06-23",
+          "min_temp": 8.09,
+          "max_temp": 20.095,
+          "the_temp": 19.195,
+          "wind_speed": 4.401248355422996,
+          "wind_direction": 23.486757087474842,
+          "air_pressure": 1023.5,
+          "humidity": 49,
+          "visibility": 14.710341605026644,
+          "predictability": 70
+        },
+        {
+          "id": 6584618976280576,
+          "weather_state_name": "Heavy Cloud",
+          "weather_state_abbr": "hc",
+          "wind_direction_compass": "N",
+          "created": "2021-06-21T15:32:01.861719Z",
+          "applicable_date": "2021-06-24",
+          "min_temp": 10.035,
+          "max_temp": 21.945,
+          "the_temp": 21.505000000000003,
+          "wind_speed": 3.2546088440547205,
+          "wind_direction": 349.39858261723936,
+          "air_pressure": 1022.5,
+          "humidity": 46,
+          "visibility": 14.907626958561998,
+          "predictability": 71
+        },
+        {
+          "id": 6510144780238848,
+          "weather_state_name": "Light Rain",
+          "weather_state_abbr": "lr",
+          "wind_direction_compass": "WSW",
+          "created": "2021-06-21T15:32:02.076397Z",
+          "applicable_date": "2021-06-25",
+          "min_temp": 14.39,
+          "max_temp": 19.48,
+          "the_temp": 18.77,
+          "wind_speed": 4.722343249908534,
+          "wind_direction": 254.42572608490195,
+          "air_pressure": 1018.5,
+          "humidity": 75,
+          "visibility": 12.26151773641931,
+          "predictability": 75
+        },
+        {
+          "id": 5460887826595840,
+          "weather_state_name": "Showers",
+          "weather_state_abbr": "s",
+          "wind_direction_compass": "ESE",
+          "created": "2021-06-21T15:32:04.780916Z",
+          "applicable_date": "2021-06-26",
+          "min_temp": 14.435,
+          "max_temp": 19.65,
+          "the_temp": 16.65,
+          "wind_speed": 2.925651594687028,
+          "wind_direction": 118.50000000000001,
+          "air_pressure": 1017.0,
+          "humidity": 77,
+          "visibility": 9.999726596675416,
+          "predictability": 73
+        }
+      ]
+    }
+  },
+  "searchResult": [],
+  "weatherParameters": [
+    "SUNRISE",
+    "SUNSET",
+    "CHANCE OF RAIN",
+    "WIND",
+    "HUMIDITY",
+    "PRESSURE",
+    "VISIBILITY"
+  ]
+}

@@ -10,12 +10,12 @@ class WeatherApiImpl implements WeatherApi {
   final MetaWeatherService _service;
 
   @override
-  Future<List<Location>> search({required String query}) async {
+  Future<List<Location>> search({required String query}) {
     return _service.search(query: query);
   }
 
   @override
-  Future<List<LocationWeather>> getLocationWeather({required List<int> ids}) async {
+  Future<List<LocationWeather>> getLocationWeather({required List<int> ids}) {
     return _service.getLocationWeather(ids: ids);
   }
 }

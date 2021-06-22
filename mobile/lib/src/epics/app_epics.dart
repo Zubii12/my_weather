@@ -30,6 +30,6 @@ class AppEpics {
                 GetWeatherData.successful(weathers),
                 const InitializeAppSuccessful(),
               ];
-            }).onErrorReturnWith((Object error, StackTrace stackTrace) => GetWeatherData.error(error, stackTrace)));
+            }).onErrorReturnWith((Object error, StackTrace stackTrace) => InitializeApp.error(error, stackTrace)));
   }
 }
